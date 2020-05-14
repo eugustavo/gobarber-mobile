@@ -32,7 +32,7 @@ export const Info = styled.View`
 
 export const Name = styled.Text`
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   color: #333;
 `;
 
