@@ -6,17 +6,16 @@ import SignUp from '~/pages/SignUp';
 
 const Stack = createStackNavigator();
 
-export default function Routes() {
+const AuthRoutes = () => {
   return (
     <Stack.Navigator
       headerBackTitleVisible={false}
-      screenOptions={{
-        headerTitleAlign: 'center',
-        headerShown: false,
-      }}
+      screenOptions={{ headerShown: false }}
     >
       <Stack.Screen name="SignIn" component={SignIn} />
       <Stack.Screen name="SignUp" component={SignUp} />
     </Stack.Navigator>
   );
-}
+};
+
+export default AuthRoutes;

@@ -1151,6 +1151,14 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/masked-view/-/masked-view-0.1.10.tgz#5dda643e19e587793bc2034dd9bf7398ad43d401"
   integrity sha512-rk4sWFsmtOw8oyx8SD3KSvawwaK7gRBSEIy2TAwURyGt+3TizssXP1r8nx3zY+R7v2vYYHXZ+k2/GULAT/bcaQ==
 
+"@react-navigation/bottom-tabs@^5.4.2":
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/@react-navigation/bottom-tabs/-/bottom-tabs-5.4.2.tgz#db1090fe2fdb27c77ffa983a618accd158a12080"
+  integrity sha512-wYUDQ45Yienf4oblWuGAze/WMuwQedHJo+xEeBb8LTCrlMfz7GnG0xAOTDi2YpKFuZEVtiXOwPmO2Hweb3Q6ZA==
+  dependencies:
+    color "^3.1.2"
+    react-native-iphone-x-helper "^1.2.1"
+
 "@react-navigation/core@^5.5.0":
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-5.5.0.tgz#7cf21567cb00d6ae1c5fd648d5c524205f5880ce"
@@ -2448,6 +2456,11 @@ data-urls@^2.0.0:
     abab "^2.0.3"
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
+
+date-fns@^2.0.0-beta.5:
+  version "2.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.0.0-beta.5.tgz#90885db3772802d55519cd12acd49de56aca1059"
+  integrity sha512-GS5yi964NDFNoja9yOdWFj9T97T67yLrUeJZgddHaVfc/6tHWtX7RXocuubmZkNzrZUZ9BqBOW7jTR5OoWjJ1w==
 
 dayjs@^1.8.15:
   version "1.8.26"
