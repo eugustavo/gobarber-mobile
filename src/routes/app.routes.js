@@ -4,6 +4,7 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import Dashboard from '~/pages/Dashboard';
 import Profile from '~/pages/Profile';
+import New from '~/pages/New';
 
 const Tab = createBottomTabNavigator();
 
@@ -29,6 +30,16 @@ const AppRoutes = () => {
         options={{
           tabBarLabel: 'Agendamentos',
           tabBarIcon: ({ color }) => iconTab(color, 'event'),
+        }}
+      />
+
+      <Tab.Screen
+        name="New"
+        component={New}
+        options={{
+          tabBarVisible: false,
+          tabBarLabel: 'Agendar',
+          tabBarIcon: ({ color }) => iconTab(color, 'add-circle-outline'),
         }}
       />
 
